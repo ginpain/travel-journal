@@ -15,7 +15,7 @@ export default function Blog(props){
                 <div className="upper-details">
                     <i className="fa-solid fa-location-dot"></i>
                     <p className="country">{props.item.location}</p>
-                    <a href="{props.item.googleMapsUrl}">View on Google Maps</a>
+                    <a href="{props.item.googleMapsUrl}" className="maps">View on Google Maps</a>
                 </div>
                 <h2>{props.item.title}</h2>
                 <p className="date">{props.item.startDate} - {props.item.endDate}</p>

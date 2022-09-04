@@ -5,7 +5,8 @@ export default function Header() {
     return(
         <header className="header">
             <i className="fa-solid fa-earth-africa"></i>
-            <p>my travel journal.</p>
+            <a href="#" className="titlePage">my travel journal.</a>
+            
         </header>
     )
 }

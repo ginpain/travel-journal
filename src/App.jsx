@@ -8,10 +8,10 @@ import data from './data'
 
 
 export default function App() {
-  const blogs=data.map(item => {
+  const blogs=data.map((item,index) => {
     return(
       <Blog
-        key={item.id}
+        key={index}
         item = {item}
       />
     )
